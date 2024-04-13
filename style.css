@@ -1,0 +1,172 @@
+/* Write your CSS code here */
+body {
+  background-color: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  height: 260px;
+  border-radius: 0.3em;
+  display: flex;
+  max-width: 650px;
+  background-color: #fffaf2;
+}
+
+.container h1 {
+  font-size: 19px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+.container h2 {
+  font-size: 13px;
+}
+
+.container p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  border-radius: 1em;
+  object-fit: cover;
+}
+
+.closet-1 {
+  height: 260px;
+  padding: 20px;
+  width: 50%;
+}
+
+.pro {
+  height: 8px;
+  border-radius: 1em;
+  background-color: #dfdfdf;
+  width: 100%;
+}
+
+.lod {
+  height: 8px;
+  border-radius: 1em;
+  background-color: #f17a37;
+  width: 80%;
+}
+
+.closet-2 {
+  height: 260px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.closet-2 h3 {
+  margin-top: 120px;
+  margin-left: 160px;
+}
+
+button {
+  background-color: #13143b;
+  margin-left: 160px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  width: 40%;
+  height: 35px;
+  border-radius: 0.3em;
+}
+
+
+
+@media screen and (max-width:600px) {
+body {
+      background-color: #dfdfdf;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  }
+
+  .container {
+      height: 260px;
+      border-radius: 0.3em;
+      display: flex;
+      max-width: 650px;
+      background-color: #fffaf2;
+  }
+
+  .container h1 {
+      font-size: 19px;
+      font-weight: 600;
+      padding-bottom: 5px;
+      margin-top: 10px;
+  }
+
+  .container h2 {
+      font-size: 13px;
+  }
+
+  .container p {
+      font-size: 13px;
+      font-weight: 600;
+  }
+
+  img {
+      height: 80px;
+      width: 80px;
+      border-radius: 1em;
+      object-fit: cover;
+  }
+
+  .closet-1 {
+      height: 260px;
+      padding: 20px;
+      width: 50%;
+  }
+
+  .pro {
+      height: 8px;
+      border-radius: 1em;
+      background-color: #dfdfdf;
+      width: 100%;
+  }
+
+  .lod {
+      height: 8px;
+      border-radius: 1em;
+      background-color: #f17a37;
+      width: 80%;
+  }
+
+  .closet-2 {
+      height: 260px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+  }
+
+  .closet-2 h3 {
+      margin-top: 120px;
+      margin-left: 160px;
+  }
+
+  button {
+      background-color: #13143b;
+      margin-left: 160px;
+      margin-top: 10px;
+      color: white;
+      font-size: 12px;
+      width: 40%;
+      height: 35px;
+      border-radius: 0.3em;
+  }
+}
